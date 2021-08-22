@@ -1,0 +1,1 @@
+const sleep = (ms: number) => new Promise(res=> setTimeout(res, ms)); // timeout to simulate loading time. call it with async
